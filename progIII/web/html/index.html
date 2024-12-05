@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <table>
+       
+        <tr class="encabezado">
+          <td rowspan="2">Docentes <br> Profesor- Auxiliar</td>
+          <td rowspan="2">Materia</td>
+          <td colspan="2">Aulas</td>
+        </tr>
+        <tr class="encabezado">
+          <td>Teorico  </td>
+          <td>Practico</td>
+          
+        </tr>
+
+        <tr>
+          <td> <span class="profe">Nbr de prof </span><br><span class="aux">Nbr de prof </span></td>
+          <td>Nbr de materia</td>
+          <td>Nro de aula </td>
+          <td>Nro de aula </td>
+        </tr>
+        <tr>
+            <td>Nbr de prof <br>Nbr de prof aux</td>
+            <td>Nbr de materia</td>
+            <td>Nro de aula </td>
+            <td>Nro de aula </td>
+          </tr>
+      </table> 
+
+
+
+    <div class="grid">
+        <p class="i-1">Docentes <br> Profesor - Auxiliar</p>
+        <p class="i-2">Materia</p>
+        <p class="i-3">Aulas</p>
+        <p class="i-4">Teoria</p>
+        <p class="i-5"> Practico</p>
+    </div>
+
+</body>
+<style>
+    tr:nth-child(odd){
+        background-color: #999999;
+    }
+    tr:nth-child(even){
+        background-color: #CCCCCC;
+    }
+    table{
+        text-align: center;
+        border: 1px solid black;
+        border-color: #999900;
+        background-color: #99CCCC;
+
+    }
+    td,tr{
+        padding: 4px;
+      
+        border: 1px solid black;
+    }
+    body{
+        margin: 0;
+    }
+    .profe{
+      background-color: #FFFFCC ; 
+    }
+.aux{
+    background-color: #FFCC99 ; 
+}
+    .encabezado{
+        background-color:#CCCCFF;
+    }
+
+
+
+</style>
+</html>
